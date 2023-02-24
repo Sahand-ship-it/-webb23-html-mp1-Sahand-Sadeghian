@@ -1,0 +1,44 @@
+
+*{
+    padding: 1rem;
+   
+}
+h1 {
+    color: blue;
+  }
+  h2 {
+    color: green;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+  }
+  h2 {
+    font-family: Georgia, serif;
+  }
+  p {
+    font-family: Verdana, sans-serif;
+  }
+  
+  a {
+    background-color: yellow;
+    transition: background-color 0.5s ease;
+  }
+  a:hover {
+    background-color: orange;
+  }
+  
+  nav a {
+    margin: 0 20px;
+  }
+  
+  .content {
+    margin-top: 100px;
+  }
+  
+  .avatar {
+    width: 50%; /* Ange den procentuella bredden som passar din design */
+    max-width: 300px; /* Sätt en maxbredd för att förhindra att bilden blir för stor */
+    display: block; /* Gör bilden blockelement för att centrera den horisontellt */
+    margin: 0 auto; /* Centrera bilden horisontellt */
+  }
